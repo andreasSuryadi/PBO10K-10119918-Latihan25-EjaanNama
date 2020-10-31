@@ -34,7 +34,7 @@ public class PBO10K10119918Latihan25EjaanNama {
 
         char[] ch = new char[jumlahKarakterNama];
 
-        System.out.println("Ejaan untuk nama '" + nama + "' adalah :");
+        System.out.println("\nEjaan untuk nama \"" + nama + "\" adalah :");
         for (int i = 0; i < jumlahKarakterNama; i++) {
             System.out.println("Huruf ke-" + (i + 1) + " : " + nama.charAt(i));
         }
